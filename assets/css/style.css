@@ -145,8 +145,9 @@
 }
 
 header {
-    background-image: url('../images/bg-image.png'),url('../images/Rectangle\ 59.png');
-    background-size: 100%;
+    background-image: url('../images/bg-image.png'), url('../images/Rectangle\ 59.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .MENU {
@@ -160,7 +161,7 @@ header {
     width: 100%;
     display: flex;
     margin-top: 7px;
-    background-color:white;
+    background-color: white;
 }
 
 .link_fonts,
@@ -445,7 +446,7 @@ nav {
     .topic_text {
         font-size: 40px;
     }
-    
+
 
 }
 
